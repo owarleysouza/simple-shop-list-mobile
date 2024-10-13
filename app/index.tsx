@@ -47,7 +47,6 @@ const Home = () => {
   });
 
   async function getOrCreateUserId() {
-    console.debug('entrou');
     try {
       let userId = await AsyncStorage.getItem('userId');
 
@@ -87,10 +86,8 @@ const Home = () => {
   };
 
   const getProductsByUser = async () => {
-    console.log('entrouuu');
     try {
       const userId = await getOrCreateUserId();
-      console.log('userId', userId);
       const q = query(
         collection(db, 'products'),
         where('userId', '==', userId)
