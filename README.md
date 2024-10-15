@@ -47,6 +47,9 @@ Essas cores não apenas criam uma atmosfera agradável, mas também promovem uma
 
 ## 6. Como Executar a Aplicação
 
+### Demonstração
+- [Link do vídeo demonstrativo](https://drive.google.com/file/d/1YaDUhsVP3rznJgKjf36ETPDF12qxAAUh/view?usp=sharing)
+
 ### Locamente
 
 1. Clone o repositório:
